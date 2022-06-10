@@ -7,8 +7,11 @@ Question 2:
 From chrome reviews, goal is to identify such ratings where review text is good, but rating is negative- so that the support team can point this to users. Deploy it using - Flask/Streamlit etc and share the live link. Answer: Idea -
 
 Read the data from CSV file using pandas .
+
 Extract the necessary columns ( text, star and thumbs-up .)
+
 Convert the text into lower case letters and remove the punctuations using backspace.
+
 Sentiment analysis using textBlob :- find the polarity and subjectivity of the text and add both in seperate columns.
 Lets consider polarity >0.3 is Posivie and polarity <= -0.3 Negative and subjectivity > 0.5 is strongly support with this we have Strongly Positive, Positive, Neutral , Strongly Neutral, Negative, Strongly Negative
 Add a new column to show the sentiment of the text .
